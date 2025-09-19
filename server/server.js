@@ -43,9 +43,7 @@ app.use(cors());
 
 // Routes setup
 app.use("/api/status", (req, res)=> res.send("Server is live"));
-app.use("/api/auth",(req,res,next)=>{ console.log(req.body)
-    next();
-}, userRouter);
+app.use("/api/auth", userRouter);
 app.use("/api/messages", messageRouter)
 
 
@@ -57,5 +55,5 @@ if(process.env.NODE_ENV !== "production"){
     server.listen(PORT, ()=> console.log("Server is running on PORT: " + PORT));
 }
 
-// Export server for Vercel
+// Export server for Vervel
 export default server;

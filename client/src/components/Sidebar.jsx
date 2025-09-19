@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
 import assets from '../assets/assets'
 import { useNavigate } from 'react-router-dom';
-// import { AuthContext } from '../../context/AuthContext.jsx';
-// import { ChatContext } from '../../context/ChatContext.jsx';
-import {AuthContext,ChatContext} from '../../context/index.js'
+import { AuthContext } from '../../context/AuthContext.jsx';
+import { ChatContext } from '../../context/chatContext.jsx';
+
 
 const Sidebar = () => {
 

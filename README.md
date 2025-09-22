@@ -1,4 +1,4 @@
-# ChitChat
+# ChitChat  |  [live link](https://chitchat-frontend-rho.vercel.app/)
 
 ChitChat is a full-stack real-time chat application built with React (Vite) for the frontend and Node.js/Express for the backend. It supports user authentication, real-time messaging, and user profile management.
 
